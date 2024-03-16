@@ -49,3 +49,41 @@ nav.first ul li a:hover{
 nav.first ul li:hover ul.dropdown{
     display: block;
 }
+
+.break{
+    width: 100%;
+    height: 27px;
+}
+
+nav.second ul{
+    background: #ffbd2d;
+    list-style: none;
+    box-shadow: 2px 2px #5f6fff;
+    padding: 10px 0;
+    padding-left: 10px;
+}
+
+nav.second ul li{
+    display: inline-block;
+    position: relative;
+    width: 180px;
+}
+
+nav.second ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid #384cff;
+    border-radius: 90px;
+    background: #5f6fff;
+}
+
+nav.second ul li a:hover{
+    background: #384cff;
+    transition: 250ms;
+    border: 2px solid #ffe600;
+}
